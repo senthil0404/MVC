@@ -1,0 +1,43 @@
+MVC 6 
+	ASP.NET MVC and Web API has been merged in to one.
+	Dependency injection is inbuilt and part of MVC.
+	Side by side - deploy the runtime and framework with your application
+	Everything packaged with NuGet, Including the .NET runtime itself.
+	New JSON based project structure.
+	No need to recompile for every change. Just hit save and refresh the browser.
+	Compilation done with the new Roslyn real-time compiler.
+	vNext is Open Source via the .NET Foundation and is taking public contributions.
+	vNext (and Rosyln) also runs on Mono, on both Mac and Linux today.
+MVC 5
+	One ASP.NET
+	Attribute based routing
+	Asp.Net Identity
+	Bootstrap in the MVC template
+	Authentication Filters
+	Filter overrides
+MVC 4 
+	ASP.NET Web API
+	Refreshed and modernized default project templates
+	New mobile project template
+	Many new features to support mobile apps
+	Enhanced support for asynchronous methods
+MVC 3
+	Razor
+	Readymade project templates
+	HTML 5 enabled templates
+	Support for Multiple View Engines
+	JavaScript and Ajax
+	Model Validation Improvements
+MVC 2 
+	Client-Side Validation 
+	Templated Helpers 
+	Areas 
+	Asynchronous Controllers 
+	Html.ValidationSummary Helper Method
+	DefaultValueAttribute in Action-Method Parameters
+	Binding Binary Data with Model Binders
+	DataAnnotations Attributes
+	Model-Validator Providers
+	New RequireHttpsAttribute Action Filter
+	Templated Helpers
+	Display Model-Level Errors

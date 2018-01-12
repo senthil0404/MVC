@@ -1,0 +1,26 @@
+﻿
+@*@model MVC.Models.Customer   If it's a not a list*@
+@*Model.Name*@
+
+@model IEnumerable<MVC.Models.Customer> 
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StronglyType</title>
+</head>
+<body>
+    <div
+
+@{
+    foreach (var item in Model)
+    {
+        @item.Name  <p>--- </p>
+        @item.Age <br />
+    }
+
+}    </div>
+</body>
+</html>

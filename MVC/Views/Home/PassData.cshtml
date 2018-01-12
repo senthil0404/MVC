@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PassData</title>
+</head>
+<body>
+    <div> 
+        @{ 
+            @ViewBag.name; <br />
+            @ViewData["Name"]<br />
+            @TempData["Name"]<br />
+
+            @TempData.Peek("Persist")
+
+            @TempData["Keep"];
+
+            TempData.Keep("Keep");
+
+                }
+    </div>
+</body>
+</html>
